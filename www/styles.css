@@ -6,11 +6,28 @@
     clear: both;
 }
 
+.cell {
+    vertical-align: middle;
+}
+
+.cell img {
+    width: 100%;
+    max-height: 7em;
+}
+
 #cell-0-0, #cell-0-1, #cell-1-0, #cell-1-1, #cell-2-0, #cell-2-1 {
     border-right: 3px solid black;
     height: 7em;
     width: 33%;
     float: left;
+    box-sizing: border-box;
+}
+
+#cell-0-2, #cell-1-2, #cell-2-2 {
+    width: 33%;
+    float: left;
+    height: 7em;
+    box-sizing: border-box;
 }
 
 .player {
@@ -59,6 +76,7 @@
 #new-game {
     float: right;
 }
+
 h1 {
     float: left;
     margin: 0 0;
