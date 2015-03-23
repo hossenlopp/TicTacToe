@@ -1,0 +1,19 @@
+#row-0, #row-1 {
+    border-bottom: 3px solid black;
+}
+
+.clearing {
+    clear: both;
+}
+
+#cell-0-0, #cell-0-1, #cell-1-0, #cell-1-1, #cell-2-0, #cell-2-1 {
+    border-right: 3px solid black;
+    height: 7em;
+    width: 33%;
+    float: left;
+}
+
+.player {
+    width: 50%;
+    float: left;
+}
