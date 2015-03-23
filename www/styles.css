@@ -15,5 +15,63 @@
 
 .player {
     width: 50%;
+}
+
+.player-right {
+    float: right;
+    text-align: right;
+}
+
+.player-left {
     float: left;
+    text-align: left;
+}
+
+.player-right img {
+    padding-right: 2em;
+}
+
+.player-left img {
+    padding-left: 2em;
+}
+
+.player img {
+    height: 4em;
+    max-width: 50%;
+}
+
+.score {
+    font-size: 3em;
+    margin: 0 0.25em;
+}
+
+.status {
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.scoreboard h2 {
+    text-align: center;
+    margin: 0 0;
+}
+
+#new-game {
+    float: right;
+}
+h1 {
+    float: left;
+    margin: 0 0;
+}
+
+body {
+    background: #ff4242; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff4242 0%, #e5e5e5 20%, #4242ff 50%, #e5e5e5 80%, #ff4242 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff4242), color-stop(20%,#e5e5e5), color-stop(50%,#4242ff), color-stop(80%,#e5e5e5), color-stop(100%,#ff4242)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff4242 0%,#e5e5e5 20%,#4242ff 50%,#e5e5e5 80%,#ff4242 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff4242 0%,#e5e5e5 20%,#4242ff 50%,#e5e5e5 80%,#ff4242 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff4242 0%,#e5e5e5 20%,#4242ff 50%,#e5e5e5 80%,#ff4242 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff4242 0%,#e5e5e5 20%,#4242ff 50%,#e5e5e5 80%,#ff4242 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4242', endColorstr='#ff4242',GradientType=0 ); /* IE6-9 */
+
 }

@@ -6,22 +6,22 @@
     <title></title>
 </head>
 <body>
-    <h1>TicTacToe</h1>
-    <ul>
-        <li>
-        <a>New Game</a>
-        </li>
-    </ul>
-    <h2>Scoreboard</h2>
     <div>
-        <div class="player">Player MA: <span id="player-1">0</span></div>
-        <div class="player">Player VA: <span id="player-2">0</span></div>
+        <h1>TicTacToe</h1><button id="new-game">New Game</button>
         <div class="clearing"></div>
     </div>
+    <div class="scoreboard">
+        <h2>Scoreboard</h2>
+        <div class="player player-left"><img class="scoreboard-image" src="MA.svg"/><span class="score" id="player-1">0</span></div>
+        <div class="player player-right"><span class="score" id="player-2">0</span><img class="scoreboard-image" src="VA.svg"/></div>
+        <div class="clearing"></div>
+    </div>
+    <div class="status">Massachusetts Play!</div>
     <div id="board">
         <div id="row-0"><div id="cell-0-0"></div><div id="cell-0-1"></div><div id="cell-0-2"></div><div class="clearing"></div></div>
         <div id="row-1"><div id="cell-1-0"></div><div id="cell-1-1"></div><div id="cell-1-2"></div><div class="clearing"></div></div>
         <div id="row-2"><div id="cell-2-0"></div><div id="cell-2-1"></div><div id="cell-2-2"></div><div class="clearing"></div></div>
     </div>
+
 </body>
 </html>
