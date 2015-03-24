@@ -83,6 +83,11 @@ h1 {
     margin: 0 0;
 }
 
+.player-image {
+    width: 33%;
+    margin: auto;
+}
+
 body {
     background: #ff4242; /* Old browsers */
     background: -moz-linear-gradient(top,  #ff4242 0%, #e5e5e5 20%, #4242ff 50%, #e5e5e5 80%, #ff4242 100%); /* FF3.6+ */

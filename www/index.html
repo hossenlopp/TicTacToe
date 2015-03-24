@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <script src="phonegap.js"></script>
     <script src="lib/jquery-2.1.3.min.js"></script>
     <script src="game.js"></script>
     <title></title>
@@ -14,16 +15,17 @@
     </div>
     <div class="scoreboard">
         <h2>Scoreboard</h2>
-        <div class="player player-left"><img class="scoreboard-image" src="MA.svg.png"/><span class="score" id="player-1">0</span></div>
-        <div class="player player-right"><span class="score" id="player-2">0</span><img class="scoreboard-image" src="VA.svg.png"/></div>
+        <div class="player player-left"><img id="player-1-image" class="scoreboard-image" src="MA.svg.png"/><span class="score" id="player-1">0</span></div>
+        <div class="player player-right"><span class="score" id="player-2">0</span><img id="player-2-image" class="scoreboard-image" src="VA.svg.png"/></div>
         <div class="clearing"></div>
     </div>
-    <div class="status">Massachusetts Play!</div>
+    <div class="status">Loading...</div>
     <div id="board">
         <div id="row-0"><div id="cell-0-0" class="cell"></div><div id="cell-0-1" class="cell"></div><div id="cell-0-2" class="cell"></div><div class="clearing"></div></div>
         <div id="row-1"><div id="cell-1-0" class="cell"></div><div id="cell-1-1" class="cell"></div><div id="cell-1-2" class="cell"></div><div class="clearing"></div></div>
         <div id="row-2"><div id="cell-2-0" class="cell"></div><div id="cell-2-1" class="cell"></div><div id="cell-2-2" class="cell"></div><div class="clearing"></div></div>
     </div>
+    <a href="history.html">Game History</a>
 
 </body>
 </html>

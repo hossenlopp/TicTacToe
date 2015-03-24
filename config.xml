@@ -15,11 +15,22 @@
         Chris Hossenlopp
     </author>
 
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+
 	<icon src="icon.png" />
 	<gap:splash src="splash.png" />
 
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
+
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.vibration" />
 
 
     <uses-sdk android:minSdkVersion="19"
