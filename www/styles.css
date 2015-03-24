@@ -13,6 +13,7 @@
 .cell img {
     width: 100%;
     max-height: 7em;
+    padding-top: 2em;
 }
 
 #cell-0-0, #cell-0-1, #cell-1-0, #cell-1-1, #cell-2-0, #cell-2-1 {
@@ -45,16 +46,16 @@
 }
 
 .player-right img {
-    padding-right: 2em;
+    padding-right: 1em;
 }
 
 .player-left img {
-    padding-left: 2em;
+    padding-left: 1em;
+
 }
 
 .player img {
-    height: 4em;
-    max-width: 50%;
+    height: 3.5em;
 }
 
 .score {
